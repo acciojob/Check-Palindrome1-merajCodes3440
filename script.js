@@ -4,7 +4,7 @@ function palindrome(str){
    let isPlindrom = true;
     let i=0 ; let j=str.length-1;
 	while(i<=j){
-		if(str[i]!==str[j]){
+		if(str[i].toLowerCase()!==str[j].toLowerCase()){
            isPlindrom=false;
 		     return;
 		}
