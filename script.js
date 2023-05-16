@@ -1,16 +1,16 @@
 // complete the given function
 
 function palindrome(str){
-   let isPlindrom = true;
+   let isPlindrome = true;
     let i=0 ; let j=str.length-1;
 	while(i<=j){
 		if(str[i].toLowerCase()!==str[j].toLowerCase()){
-           isPlindrom=false;
+           isPlindrome =false;
 		     return;
 		}
 		i++;
 		j--;
    }
-	console.log(isPlindrom? "true":"false");
+	console.log(isPlindrome ? true: false);
 }
 module.exports = palindrome
